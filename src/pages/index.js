@@ -7,9 +7,9 @@ function IndexPage() {
       <h1>
         Hello World
       </h1>
-      <Link href="/about">
-        <a>About</a>
-      </Link>
+      <Link href="/about"><a>About</a></Link>
+      <Link href="/chart"><a>Charts</a></Link>
+      <Link href='/login'><a>Login</a></Link>
     </div>
   );
 }

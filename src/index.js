@@ -16,8 +16,12 @@ nextApp.prepare().then(() => {
 
   // Define all you backend handlers here...
 
-  // Handle everything that is not covered in above routes with next.js
+//  Handle everything that is not covered in above routes with next.js
+
+
+
   app.get('*', (request, response) => {
+    // console.log('request ', request);
     return handle(request, response);
   });
 
