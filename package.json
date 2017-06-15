@@ -12,6 +12,7 @@
     "lint": "eslint src"
   },
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
     "express": "^4.15.3",
     "next": "^2.4.3",
     "react": "^15.5.4",
